@@ -7,10 +7,10 @@ A C++ App that converts Celsius to Fahrenheit and vice-versa built by Brodie New
 This app requires g++, git, and bash
 
 Terminal:
-sudo apt update
-sudo apt install build-essential git gdb
-git clone https://github.com/brodienewhouse/week02-mini-project.git
-cd week02-mini-project
+sudo apt update \
+sudo apt install build-essential git gdb \
+git clone https://github.com/brodienewhouse/week02-mini-project.git \
+cd week02-mini-project 
 
 ## Input/Output Contract
 
@@ -34,10 +34,10 @@ Formulas: F = C * 9 / 5 + 32 and C = (F - 32) * 5 / 9
 ## Build and Test Commands
 
 Terminal:
-mkdir -p build
-g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app
-./build/app           
-bash test.sh          
+mkdir -p build \
+g++ -std=c++17 -Wall -Wextra -pedantic src/main.cpp -o build/app \
+./build/app \
+bash test.sh 
 
 Either ./build/app or bash test.sh can be used to test the program
 
