@@ -1,17 +1,17 @@
-## Brodie Newhouse
+# Brodie Newhouse
 
-# Contributions
+## Contributions
 
 The repository setup and README, test fixtures and test.sh
 
-## Georgy Rached
+# Georgy Rached
 
-# Contributions
+## Contributions
 
 src/main.cpp
 
-## T Zhong
+# T Zhong
 
-# Contributions
+## Contributions
 
 GitHub Actions workflow, Verifying the release
