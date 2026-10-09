@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -22,13 +23,13 @@ int main() {
     if (conversion == "C2F") 
     {
         newTemp = temperature * 9.0 / 5.0 + 32.0 ;
-        cout << temperature << " C converts to " << newTemp << " F" << endl;
+        cout << fixed << setprecision(1) << newTemp << " F" << endl;
     }
 
     else if (conversion == "F2C")
     {
         newTemp = (temperature - 32.0) * 5.0  / 9.0 ;
-        cout << temperature << " F converts to " << newTemp << " C" << endl;
+        cout << fixed << setprecision(1) << newTemp << " C" << endl;
     }
 
     else
